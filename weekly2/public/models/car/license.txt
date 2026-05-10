@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cyberpunk Lamborghini Terzo
+* source:	https://sketchfab.com/3d-models/cyberpunk-lamborghini-terzo-3f699c7ce86c4ba1bad62a350766556f
+* author:	lucidluke (https://sketchfab.com/lucidluke)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cyberpunk Lamborghini Terzo" (https://sketchfab.com/3d-models/cyberpunk-lamborghini-terzo-3f699c7ce86c4ba1bad62a350766556f) by lucidluke (https://sketchfab.com/lucidluke) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

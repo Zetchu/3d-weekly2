@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Cyberpunk | Vehicle Terminal</title>
+  </head>
+  <body>
+    <canvas class="webgl"></canvas>
+
+    <div class="overlay">
+      <header>
+        <div class="brand">NEURAL_NET OS</div>
+        <h1>GARAGE_v4.02</h1>
+        <div class="status-line">
+          SCANNING FOR VEHICLES... <span class="blink">FOUND</span>
+        </div>
+      </header>
+
+      <div class="bottom-ui">
+        <div class="info-panel">
+          <div class="label">SELECTED_UNIT</div>
+          <h2 id="v-name">CAR_01</h2>
+          <p id="v-stats">TYPE: EXPERIMENTAL | CLASS: S</p>
+        </div>
+
+        <div class="controls-hint">
+          <div class="key-hint">◄ ► ARROW KEYS TO CYCLE</div>
+          <div class="key-hint">DRAG MOUSE TO ORBIT</div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="/src/main.js"
+    ></script>
+  </body>
+</html>

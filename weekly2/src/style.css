@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap');
+
+:root {
+  --neon-cyan: #00ffff;
+  --neon-pink: #ff0055;
+  --bg-dark: #020205;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-dark);
+  overflow: hidden;
+  font-family: 'Share Tech Mono', monospace;
+  color: var(--neon-cyan);
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+header h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+  text-shadow: 0 0 10px var(--neon-cyan);
+}
+
+.brand {
+  font-size: 0.8rem;
+  letter-spacing: 0.3rem;
+  opacity: 0.7;
+}
+.status-line {
+  margin-top: 1rem;
+  color: var(--neon-pink);
+}
+
+.bottom-ui {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.info-panel {
+  background: rgba(0, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-left: 4px solid var(--neon-pink);
+  padding: 2rem;
+  min-width: 350px;
+}
+
+.info-panel .label {
+  font-size: 0.7rem;
+  opacity: 0.6;
+  margin-bottom: 0.5rem;
+}
+.info-panel h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.controls-hint {
+  text-align: right;
+}
+.key-hint {
+  border: 1px solid var(--neon-cyan);
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  background: rgba(0, 0, 0, 0.5);
+  pointer-events: auto;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
